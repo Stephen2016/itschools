@@ -1,0 +1,72 @@
+html{
+	border-box;
+	font-size: 10px;
+}
+*,*::before,*::after {
+	box-sizing: inherit;
+	font-size: 10px;
+}
+#page{
+	max-width: 600px
+	max-height	600px;
+	list-style-type: none;
+}
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #39ff4522;
+}
+#main_form,.main_form{
+	margin-left: 0 ;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+h1 {
+	font-family: "AR DESTINE", calibri, arial;
+	color: rgba(0,255,100,100);
+	font-size: 5rem;
+	font-weight: bolder;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+h2	{
+	font-family: cambria,arial,"times new roman";
+	color: rgba(255,0,255, 50);
+	font-size: 3rem;
+	margin-top: 0px;
+	}
+#main_form,.main_form	{
+	margin: 3rem 5rem;
+	font-size:30px;
+}
+fieldset {
+	margin-right: 1rem;
+	margin-left: 1rem;
+	background-color: ;
+}
+legend,label,li,p{
+	font-size: 2rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+#application{
+	margin-top: 1.5rem;
+}
+input{
+	font-size:1.2rem;
+	margin-left: 1rem;
+}
+label{
+	padding: 0.1rem;
+	border-radius: 0.2rem;
+	/*content: ""*/
+}
+#main_form:not(.gender),.main_form:not(.gender){
+		list-style-type: decimal;
+}
+.next{
+	text-align: center;
+	 font-size: 2rem;
+}

@@ -1,0 +1,16 @@
+main .write-up {
+	font-size: 1.8rem;
+	text-indent: 5rem;
+	padding-left: 2rem;
+}
+
+main div #trainings {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-left: 0px;
+}
+
+main div #trainings li {
+	list-style-type: none;
+	margin: 2rem 2rem;

@@ -1,0 +1,19 @@
+/*paragraphs inside div inside the main*/
+main div p{
+	padding: 0.5rem  4rem;
+	font-size: 	1.8rem;
+	line-height: 2rem;
+	text-indent: 4rem;
+	margin: 1rem 1rem;
+}
+
+
+/*the paragraph with the id about-blank that is inside the main*/
+main #about-blank {
+	width: 100%;
+	height: 3rem;
+	text-align: center;
+	font-size: 4rem;
+	margin: 3rem 0rem;
+	font-weight: bolder;
+}
